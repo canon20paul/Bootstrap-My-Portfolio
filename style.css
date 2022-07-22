@@ -1,0 +1,12 @@
+body::before {
+    /* Implement a Ghost Element to create the initial space from TOP */
+    display: block;
+    content: ' ' ;
+    height: 60px; 
+}
+
+@media (min-width: 768px) {
+    .news-input {
+    width: 50%;
+    }
+}
